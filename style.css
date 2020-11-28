@@ -5,7 +5,7 @@
 
 body{
     box-sizing: border-box;
-    background: gainsboro;
+    background: rgb(247, 238, 238);
     margin-bottom: 30px;
 }
 
@@ -100,13 +100,14 @@ ul li:hover{
     font-family: 'Inconsolata', monospace;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1px;
+    /* padding-top: 1px; */
 }
 
 .longText{
     font-size: 20px;
     font-family: 'Inconsolata', monospace;
     margin-top: 50px;
+    line-height: 30px;
 }
 
 .longText p:nth-child(2){
@@ -115,7 +116,7 @@ ul li:hover{
 
 .importantMassage{
     margin-top: 20px;
-    background: rgba(240, 242, 247, 0.808);
+    background: rgba(255, 255, 255, 0.822);
     padding: 20px;
     margin-bottom: 30px;
     max-width: 675px;
@@ -124,36 +125,35 @@ ul li:hover{
 }
 
 .importantMassage p:nth-child(2){
-    margin-top: 20px;
+    color: rgb(126, 126, 126);
 }
 
-.line{
-    width: 5px;
-    height: 90px;
-    background: red;
-    margin-left: -20px;
-    margin-top: -40px;
-    position: relative;
+.importantMassage p:nth-child(3){
+    margin-top: 15px;
 }
-
 
 .aboutImg{
-    width: 70vw;
+    /* min-width: 40vw; */
     height: 40vw;
-    background: red;
+    background: url('./assest/coffeeshop.jpg');
     margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-@media(max-width: 760px){  
-    .downLeftText{
-        display: none;
-    }
+.openingAndAddress{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
 
-    .downRightText{
-        margin-top: 60px;
-    }
+.openingAndAddress span{
+    font-size: 16px;
+    margin-right: 5px;
+}
 
-    .massage::before{
-        display: none;
-    }
+
+.openingAndAddress p:nth-child(2){
+    margin-top: 20px;
 }

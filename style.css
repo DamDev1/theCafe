@@ -135,3 +135,55 @@ a{
 .openingAndAddress p:nth-child(2){
     margin-top: 20px;
 }
+
+.menuContainer{
+    margin-top: 50px;
+    padding: 1em;
+}
+
+.textMenu{
+    text-align: center;
+    background: black;
+    color: white;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    background: rgb(247,245,242);
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 30px 10px rgba(128, 128, 128, 0.301);
+}
+
+.menuSelect{
+    box-shadow: 2px 2px 2px 2px rgba(199, 198, 198, 0.39);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    background: rgb(247,245,242);
+   
+}
+
+.menuSelect a{
+    color: black;
+}
+
+.menuSelect a:hover{
+    color: white;
+}
+
+.menuSelect h2:hover{
+    background: gray;
+    color: white;
+}
+
+.menuTextForEat{
+    padding: 1em;
+}
